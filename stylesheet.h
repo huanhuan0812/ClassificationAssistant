@@ -1,5 +1,3 @@
-// 在您的main.cpp或程序启动时加载此样式表
-// 示例: qApp->setStyleSheet(Material3StyleSheet::getStyle());
 #pragma once
 #include <QString>
 

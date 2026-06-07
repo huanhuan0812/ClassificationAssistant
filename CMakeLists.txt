@@ -37,3 +37,6 @@ install(TARGETS ClassificationAssistant
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
+find_package(onnxruntime REQUIRED)
+target_link_libraries(${PROJECT_NAME} PRIVATE onnxruntime::onnxruntime)
